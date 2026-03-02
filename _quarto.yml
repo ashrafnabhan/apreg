@@ -1,0 +1,21 @@
+project:
+  type: manuscript
+
+manuscript:
+  article: index.qmd
+
+format:
+  html:
+    comments:
+      hypothesis: true
+  docx: default
+
+execute:
+  freeze: true
+
+editor: visual
+
+title: A live birth of advanced primary abdominal pregnancy in a primigravida
+subtitle: A case report and review of literature
+bibliography: references.bib
+csl: vancouver.csl
